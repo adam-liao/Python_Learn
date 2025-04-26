@@ -4,7 +4,8 @@
 
 再設定.gitignore 不要將虛擬同步
 
-!!!python
+```python
+
 print('Say hello!')
 
-!!!
+```
