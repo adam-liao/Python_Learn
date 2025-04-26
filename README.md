@@ -1,2 +1,2 @@
 # Python_Learn
-學院Python自我學習
+202504在台北職能學院初學Python的作業及自我學習
