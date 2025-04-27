@@ -19,8 +19,7 @@ if fruit_index < len(list2):
     list1.extend(list2[fruit_index:])
     
 print(list1)
-    
-
-
-
+ 
 ```
+**結果為**
+['蘋果', '高麗菜', '香蕉', '菠菜', '芒果', '空心菜', '胡蘿蔔', '葡萄', '西瓜']
