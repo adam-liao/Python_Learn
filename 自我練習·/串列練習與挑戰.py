@@ -123,6 +123,5 @@ squares = [x**2 for x in range(1, 6)]
 
 # 🧠 額外補充（可選讀）
 # 你也可以這樣想串列推導式的邏輯順序：
-
-[      表達式         for 變數 in 可迭代物件      if 條件]
-[    x**2           for   x     in  range(1, 6)    ]
+# [    表達式    for 變數     in 可迭代物件      if 條件]
+# [    x**2     for   x     in  range(1, 6)         ]
