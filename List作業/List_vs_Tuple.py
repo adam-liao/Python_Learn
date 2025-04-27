@@ -47,7 +47,7 @@ furit.append(1, 2, 3, 4, 5)  #這是錯的
 
 # # ❌ TypeError: list.append() takes exactly one argument (5 given)
 # ✅ 正確寫法有幾種：
-✅ 方法一：如果你要加入整個 [1, 2, 3, 4, 5] 當成一個項目：
+# ✅ 方法一：如果你要加入整個 [1, 2, 3, 4, 5] 當成一個項目：
 
 furit.append([1, 2, 3, 4, 5])
 # 結果是：
@@ -84,7 +84,7 @@ for i in fruit:
     
 # 這段程式輸出的應該是：
 
-Hello12345
+#Hello12345
 
 ###### 以下還有常見的錯誤
 
@@ -106,7 +106,7 @@ fruit = ([1,5,3], [7,8,4,2], [23,45,23,12,567,78])  # ⬅️ tuple，有三個 l
 
 # 所以 fruit.pop() 的錯誤訊息會是：
 # AttributeError: 'tuple' object has no attribute 'pop'
-✅ 正確做法：請用中括號 [] 包起來形成二維 list
+# ✅ 正確做法：請用中括號 [] 包起來形成二維 list
 
 fruit = [
     [1,5,3],
